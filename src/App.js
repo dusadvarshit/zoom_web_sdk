@@ -1,5 +1,6 @@
 import './App.css';
 
+
 declare var ZoomMtg
 
 ZoomMtg.setZoomJSLib('https://source.zoom.us/1.9.1/lib', '/av');
@@ -10,9 +11,9 @@ ZoomMtg.prepareJssdk();
 function App() {
 
   // setup your signature endpoint here: https://github.com/zoom/websdk-sample-signature-node.js
-  var signatureEndpoint = ''
-  var apiKey = ''
-  var meetingNumber = '123456789'
+  var signatureEndpoint = 'http://localhost:4000'
+  var apiKey = '7mg7S2ofTgyBy2leQ-uD3w'
+  var meetingNumber = '3526875119'
   var role = 0
   var leaveUrl = 'http://localhost:3000'
   var userName = 'React'
@@ -20,6 +21,8 @@ function App() {
   var passWord = ''
 
   function getSignature(e) {
+
+    console.log("Hello world");
     e.preventDefault();
 
     fetch(signatureEndpoint, {

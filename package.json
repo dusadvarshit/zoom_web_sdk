@@ -2,7 +2,7 @@
   "name": "websdk-sample-react",
   "version": "1.9.1",
   "author": "Tommy Gaessler",
-  "homepage": "",
+  "homepage": "/zoom_web_sdk",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -12,6 +12,7 @@
     "react": "^17.0.1",
     "react-dev-utils": "^11.0.4",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^0.2.4"
   },
